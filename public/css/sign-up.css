@@ -1,0 +1,160 @@
+.signup-background-image {
+   background-image: url('../images/sign-up.png');
+   opacity: 0.9;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 0 auto -75px;
+   padding: 0;
+   position: relative;
+   height: 100vh;
+}
+.signup-background-image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(46, 55, 164, 0.22);
+  }
+
+.signup-form {
+   height: 91%;
+   width: 100%;
+   display: inline-flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.Modal-sign-up {
+    background: #3E363F;
+    border-radius: 10px;
+    padding: 10px;
+   z-index: 3;
+}
+
+.Input {
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 1px solid rgba(255, 252, 232, 0.1);
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+
+.Input input {
+    outline: none;
+    border: 0;
+    color: #FFFCE8;
+    background: transparent;
+    font-family: monospace;
+    flex: 1 0 auto;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.Input input:focus~label {
+    opacity: 1;
+}
+
+.Input input[type='text']~label::before {
+    content: "\f007";
+}
+
+.Input input[type='email']~label::before {
+    content: "\f1fa";
+}
+
+.Input input[type='password']~label::before {
+    content: "\f023";
+}
+
+.Input label {
+    font-family: FontAwesome;
+    font-size: 13px;
+    opacity: .1;
+    transition: opacity .5s ease;
+}
+
+.Input label::before {
+    align-items: center;
+    color: #FFFCE8;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    width: 30px;
+}
+
+button {
+    align-items: center;
+    background: #DD403A;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: 500;
+    justify-content: center;
+    margin-top: 20px;
+    outline: none;
+    padding: 10px 9px 10px 11px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+button .fa {
+    font-size: 15px;
+    margin-left: auto;
+    position: relative;
+    top: 1px;
+}
+
+button:hover {
+    transform: scale(1.02);
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+.Modal-enter {
+    margin-top: 30px;
+    opacity: .01;
+}
+
+.Modal-enter.Modal-enter-active {
+    margin-top: 0px;
+    opacity: 1;
+    transition: opacity .5s ease, margin .5s ease;
+}
+
+.Modal-leave {
+    margin-top: 0px;
+    opacity: 1;
+}
+
+.Modal-leave.Modal-leave-active {
+    margin-top: -30px;
+    opacity: .01;
+    transition: opacity .3s ease, margin .5s ease;
+}
+
+.signup-paragraph {
+   font-family: monospace;
+   text-align: center;
+   font-size: 25px;
+   color: white;
+   margin-top: 100px;
+}
+
+.email-exists-in-db {
+   color: #e0534e;
+   font-family: monospace;
+   font-size: 13px;
+   font-weight: bold;
+   z-index: 3;
+   margin-top: 10px;
+   margin-left: 10px;
+}

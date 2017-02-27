@@ -1,0 +1,45 @@
+.navbar-main {
+   display: inline-flex;
+   width: 100%;
+   flex-direction: row;
+   justify-content: space-between;
+   border: 1px solid transparent;
+}
+.nav-link {
+   text-decoration: none;
+   font-family: monospace
+}
+.navbar-left-link, .navbar-right-link{
+   background-color: lightblue;
+   color: blue;
+   font-family: monospace;
+   width: 65px;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 22px;
+   width: 120px;
+   padding: 6px;
+   border-radius: 4px;
+}
+.navbar-left-link:hover .nav-link{
+   color: red;
+   text-decoration: none;
+}
+.navbar-center {
+   text-align: center;
+   font-size: 30px;
+   color: blue;
+   font-family: monospace
+}
+.navbar-center-profile {
+   text-align: center;
+   font-size: 30px;
+   color: yellow;
+   font-family: monospace
+}
+.navbar-center-main {
+   text-align: center;
+   font-size: 30px;
+   color: red;
+   font-family: monospace
+}

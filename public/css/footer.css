@@ -1,0 +1,12 @@
+.page-footer {
+   position: relative;
+   color: white;
+   text-align: center;
+   width: 100%;
+   font-family: monospace;
+   background-color: #4f1a1b;
+   z-index: 1;
+   font-size: 20px;
+   padding: 15px;
+   opacity: 0.7;
+}

@@ -1,0 +1,83 @@
+.welcome-background-image {
+   background-image: url('../images/main.jpeg');
+   opacity: 0.9;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 0 auto -58px;
+   padding: 0;
+   position: relative;
+   height: 100vh;
+}
+.welcome-background-image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(46, 55, 164, 0.22);
+  }
+
+.welcome-paragraph-header {
+   position: absolute;
+   z-index: 3;
+   text-align: center;
+   font-size: 30px;
+   font-family: monospace;
+   width: 100%;
+   margin-top: 10%;
+   color: #fbc373;
+}
+
+.welcome-paragraph-signin {
+   position: absolute;
+   z-index: 3;
+   font-family: monospace;
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 23%;
+   color: white;
+   width: 100%;
+}
+
+.welcome-paragraph-signin-2 {
+   position: absolute;
+   z-index: 3;
+   font-family: monospace;
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 30%;
+   color: white;
+   width: 100%;
+}
+
+.welcome-link-signin, .welcome-link-signup, .welcome-link-subscribe {
+   text-decoration: none;
+   font-family: monospace;
+   color: white;
+   font-weight: normal;
+   font-size: 20px;
+}
+.welcome-link-signin:hover, .welcome-link-signup:hover, .welcome-link-subscribe:hover {
+   text-decoration: none;
+   font-family: monospace;
+   color: blue;
+   font-weight: normal;
+}
+
+i.fa {
+    font-size: 20px;
+    color: #fbc373;
+}
+
+.welcome-link-signin:hover ~ .fa {
+    color: lightblue;
+}
+.welcome-link-signup:hover ~ .fa {
+   color: lightblue;
+}
+.welcome-link-subscribe:hover {
+   color: blue;
+}
