@@ -52,7 +52,7 @@ I built the basis of the project and included these features:
 
 
    Estimated time to finish this project depends mainly on obtaining the copyrights permissions of the movies.
-   I am going to implement any features I think it is going to be necessary for the meantime. If you have any suggestions or advices, I would appreciate contacting me at:  **ashour.m@live.de**
+   I am going to implement any features I think it is going to be necessary for the meantime. If you have any suggestions or advices, I would appreciate contacting me to:  **ashour.m@live.de**
 
 
 
