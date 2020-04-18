@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/moaaz-ashour/arabic-movies-app#readme",
   "dependencies": {
-    "axios": "^0.15.3",
+    "axios": "^0.19.2",
     "babel-cli": "^6.23.0",
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",
